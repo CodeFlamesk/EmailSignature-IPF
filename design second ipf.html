@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signature</title>
+    <style>
+        .email-signature-container {
+            width: 100%;
+            max-width: 600px;
+
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            color: #0066B0;
+            font-size: 15px;
+        }
+
+        .table-signature-container {
+            width: 100%;
+            max-width: 600px;
+            font-family: Arial, sans-serif;
+            color: #0066B0;
+
+        }
+
+        .kafedra {
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+
+
+        }
+
+
+        .name {
+            font-weight: bold;
+            font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
+            text-align: right;
+            width: 100%;
+            max-width: 190px;
+        }
+
+        .university {
+            text-align: left;
+        }
+
+        .contact-info {
+            display: block;
+            margin-bottom: 10px;
+            color: #0066B0;
+        }
+
+        .color {
+            color: #0066B0;
+        }
+
+        .contact-info span {
+            margin-right: 8px;
+        }
+
+        .no-underline {
+            text-decoration: none;
+            color: #0066B0;
+
+        }
+
+        .no-underline:hover {
+            text-decoration: none;
+            color: #f15028;
+            transition-duration: 300ms;
+            transform: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .ipf-logo {
+            width: 101px;
+            height: 101px;
+            text-align: center;
+            margin-right: 8px;
+
+        }
+
+        .first-box {
+            width: 40%;
+            display: inline;
+        }
+
+        .third-box {
+            width: 40%;
+
+        }
+
+        .personal-data {
+            display: inline-block;
+        }
+
+        .table {
+            max-width: 600px;
+        }
+
+        .span-between {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-signature-container">
+        <img src="https://i.ibb.co/N9c1xfv/image-2.png" alt="IPF Logo" class="ipf-logo">
+
+        <div class="personal-data">
+            <span class="kafedra contact-info">Кафедра сфери обслуговування, технологій та
+                охорони праці</span>
+            <span class="kafedra contact-info">ТНПУ ім.&nbsp;В.Гнатюка</span>
+            <div class="contact-info">
+                <span>🌐</span> <a href="https://tnpu.edu.ua/faculty/IPF/techn.php?clear_cache=Y"
+                    class="no-underline">website</a>
+            </div>
+            <div class="contact-info">
+                <span>📨</span> <a href="mailto:kaf.ksotop@tnpu.edu.ua" class="no-underline">kaf.ksotop@tnpu.edu.ua</a>
+
+            </div>
+            <!--    <div class="contact-info">
+                <span>☎️</span> +123456789
+            </div> -->
+        </div>
+        <table class="table-signature-container">
+            <tr class="table">
+                <td class="university"></td>
+
+                <td class="name">доцент Юрій&nbsp;ТУРАНОВ</td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signature</title>
+    <style>
+        .email-signature-container {
+            width: 100%;
+            max-width: 600px;
+
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            color: #0066B0;
+            font-size: 15px;
+        }
+
+        .kafedra {
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+            text-align: end;
+        }
+
+        .university {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+        }
+
+        .contact-info {
+            margin-bottom: 10px;
+        }
+
+        .contact-info span {
+            margin-right: 8px;
+        }
+
+        .no-underline {
+            text-decoration: none;
+            color: #0066B0;
+
+        }
+
+        .no-underline:hover {
+            text-decoration: none;
+            color: #f15028;
+            transition-duration: 300ms;
+            transform: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .ipf-logo {
+            width: 101px;
+            height: 101px;
+            margin-left: 20px;
+            margin-right: 20px;
+
+        }
+
+        .first-box {
+            width: 40%;
+            display: inline;
+        }
+
+        .third-box {
+            width: 40%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-signature-container">
+        <table>
+            <tr>
+                <td class="first-box">
+                    <img src="https://tnpu.edu.ua/naukova-robota/stud-naukove-tov/ind-ped-logo.jpg" alt="IPF Logo"
+                        class="ipf-logo">
+                </td>
+                <td class="second-box">
+                    <span class="kafedra">Кафедра сфери обслуговування, технологій та охорони праці.</span>
+                    <div class="contact-info">
+                        <span>🌐</span> <a href="https://tnpu.edu.ua/faculty/IPF/techn.php?clear_cache=Y"
+                            class="no-underline">website</a>
+                    </div>
+                    <div class="contact-info">
+                        <span>📨</span> email@example.com
+                    </div>
+                    <div class="contact-info">
+                        <span>☎️</span> +123456789
+                    </div>
+                </td>
+
+            </tr>
+            <tr>
+                <td class="third-box"><span class="university">ТНПУ ім. В.Гнатюка</span></td>
+                <td class="four-box"><span class="name">доцент Юрій ТУРАНОВ</span></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html> -->
